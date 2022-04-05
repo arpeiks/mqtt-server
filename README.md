@@ -4,7 +4,9 @@
 
 ### Persistent MQTT session using mqtt.js library
 
-![mqtt pub sub](https://user-images.githubusercontent.com/57372063/161745773-e499d76f-1b69-45c0-9f58-1880421337ad.png)
+
+
+
 
 
 ##### Start Publisher
@@ -17,3 +19,11 @@
 
 ##### Start Subscriber 2
 `yarn nodemon src/sub2.ts`
+
+
+
+
+
+
+
+![mqtt pub sub](https://user-images.githubusercontent.com/57372063/161745773-e499d76f-1b69-45c0-9f58-1880421337ad.png)
