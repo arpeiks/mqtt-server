@@ -1,12 +1,12 @@
 import mqtt from "mqtt";
 
 const client = mqtt.connect("mqtt://broker.hivemq.com", {
-  clean: false,
-  clientId: "subscriber2",
+  clean: false, // persistent session
+  clientId: "subscriber2", // client id needed for persistent sesstion
 });
 
 client.on("connect", (pack) => {
-  client.subscribe("random", { qos: 1 });
+  client.subscribe("random", { qos: 1 }); // quality of service > 1 [matches publisher]
   console.log("SUBSCRIBER connected", pack);
 });
 

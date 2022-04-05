@@ -10,6 +10,6 @@ client.on("connect", (pack) => {
 
     console.log(random);
 
-    if (random > 30) client.publish("random", random.toString(), { qos: 1 });
+    if (random > 30) client.publish("random", random.toString(), { qos: 1 }); // quality of service > 1 [matches subscriber]
   }, 2000);
 });
