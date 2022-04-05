@@ -1,0 +1,17 @@
+{
+  "name": "@mqtt/server",
+  "version": "1.0.0",
+  "main": "dist/main.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon main.ts"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "mqtt": "^4.3.7",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.7.0"
+  }
+}
